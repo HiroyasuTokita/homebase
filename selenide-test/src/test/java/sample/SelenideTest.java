@@ -34,6 +34,9 @@ public class SelenideTest {
         // Selenide公式ページ
         // 「What is Selenide?」という文言があることを確認
         $("body").shouldHave(text("What is Selenide?"));
+
+        System.out.println("hogehoge!!!!");
+
     }
 
 }
