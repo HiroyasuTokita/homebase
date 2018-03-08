@@ -16,7 +16,7 @@ public class SelenideTest {
 	public static void beforeClass() {
 		// Chrome(要ドライバー)
 		Configuration.browser = WebDriverRunner.CHROME;
-    	System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
+    	 System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
 	}
 
     @Test
