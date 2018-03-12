@@ -3,13 +3,12 @@ package sample;
 public class Dog {
 
 	private String name;
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
 	private int age;
 
+	public void setName(final String _name) {
+		this.name = _name;
+
+	}
 	public Dog() {
 
 	}
@@ -30,5 +29,4 @@ public class Dog {
 	public void run() {
 		System.out.println(name + " is running.");
 	}
-
 }
