@@ -5,10 +5,6 @@ public class Dog {
 	private String name;
 	private int age;
 
-	public void setName(final String _name) {
-		this.name = _name;
-
-	}
 	public Dog() {
 
 	}
@@ -16,6 +12,12 @@ public class Dog {
 	public Dog(String name, int age) {
 		this.name = name;
 		this.age = age;
+	}
+
+
+	public void setName(final String _name) {
+		this.name = _name;
+
 	}
 
 	public String getName() {
