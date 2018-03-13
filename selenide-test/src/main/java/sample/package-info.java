@@ -1,4 +1,7 @@
-/*
- * テスト用のプロダクトコード
+/**
+ *
+ * テスト用プロダクションコードパッケージです。
+ *
+ * @author HIROYASU TOKITA
  */
 package sample;
